@@ -23,3 +23,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Local skill installation examples
+examples/**/.agents/
+examples/**/skills-lock.json
