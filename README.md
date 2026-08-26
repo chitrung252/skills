@@ -16,7 +16,7 @@ Chọn skill cần cài và coding agent bạn đang sử dụng. Để cài tr�
 
 ```bash
 npx skills@latest add chitrung252/skills \
-  --skill markdown-en-vi-localizer \
+  --skill en-vi-localizer \
   --agent codex
 ```
 
@@ -24,7 +24,7 @@ Thêm `--global` nếu muốn dùng skill trong mọi project.
 
 ## Skills
 
-- [`markdown-en-vi-localizer`](./skills/localization-en-vi-md/SKILL.md): Dịch và hiệu đính Markdown từ tiếng Anh sang tiếng Việt tự nhiên, đồng thời bảo toàn cấu trúc, code, liên kết, placeholder và thuật ngữ kỹ thuật.
+- [`en-vi-localizer`](./skills/en-vi-localizer/SKILL.md): Dịch và hiệu đính Markdown cùng các file locale YAML, JSON, JSONC và TOML từ tiếng Anh sang tiếng Việt tự nhiên mà không làm thay đổi cấu trúc kỹ thuật.
 
 ## License
 
