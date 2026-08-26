@@ -13,7 +13,7 @@ Skill đi kèm cẩm nang giọng văn và glossary EN → VI dành cho nội du
 Chạy tại thư mục gốc của project:
 
 ```bash
-npx skills@latest add chitrung252/skills \
+bunx --bun skills@latest add chitrung252/skills \
   --skill markdown-en-vi-localizer \
   --agent codex
 ```
@@ -23,7 +23,7 @@ Skill sẽ được cài vào `.agents/skills/markdown-en-vi-localizer`.
 ### Cài cho tài khoản hiện tại
 
 ```bash
-npx skills@latest add chitrung252/skills \
+bunx --bun skills@latest add chitrung252/skills \
   --skill markdown-en-vi-localizer \
   --agent codex \
   --global
