@@ -1,0 +1,10 @@
+save: Lưu
+delete: Xóa
+new_entry: Tạo bài viết mới
+publish: Xuất bản
+deploy: Triển khai
+discard_changes: Hủy thay đổi
+asset_library: Thư viện tệp
+repository: Kho mã nguồn
+sign_in: Đăng nhập bằng {$service}
+load_error: Không thể tải bài viết. Vui lòng thử lại sau.

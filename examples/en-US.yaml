@@ -1,0 +1,10 @@
+save: Save
+delete: Delete
+new_entry: New Entry
+publish: Publish
+deploy: Deploy
+discard_changes: Discard Changes
+asset_library: Asset Library
+repository: Repository
+sign_in: Sign In with {$service}
+load_error: Couldn't load entries. Please try again later.
