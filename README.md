@@ -9,13 +9,13 @@ Mỗi skill được thiết kế nhỏ gọn, tập trung vào một công vi�
 ## Cài đặt
 
 ```bash
-bunx --bun skills@latest add chitrung252/skills
+npx skills@latest add chitrung252/skills
 ```
 
 Chọn skill cần cài và coding agent bạn đang sử dụng. Để cài trực tiếp một skill cho Codex:
 
 ```bash
-bunx --bun skills@latest add chitrung252/skills \
+npx skills@latest add chitrung252/skills \
   --skill markdown-en-vi-localizer \
   --agent codex
 ```
