@@ -24,7 +24,7 @@ Thêm `--global` nếu muốn dùng skill trong mọi project.
 
 ## Skills
 
-- [`markdown-en-vi-localizer`](./skills/localization-en-vi/SKILL.md): Dịch và hiệu đính Markdown từ tiếng Anh sang tiếng Việt tự nhiên, đồng thời bảo toàn cấu trúc, code, liên kết, placeholder và thuật ngữ kỹ thuật.
+- [`markdown-en-vi-localizer`](./skills/localization-en-vi-md/SKILL.md): Dịch và hiệu đính Markdown từ tiếng Anh sang tiếng Việt tự nhiên, đồng thời bảo toàn cấu trúc, code, liên kết, placeholder và thuật ngữ kỹ thuật.
 
 ## License
 
