@@ -1,0 +1,39 @@
+{
+  "name": "locationzation-en-vi",
+  "version": "1.0.0",
+  "description": "Install a Codex skill for natural English-to-Vietnamese Markdown localization.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chitrung252/skills.git"
+  },
+  "homepage": "https://github.com/chitrung252/skills#readme",
+  "bugs": {
+    "url": "https://github.com/chitrung252/skills/issues"
+  },
+  "type": "module",
+  "bin": {
+    "locationzation-en-vi": "bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "locationzation-en-vi/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "codex",
+    "agent-skill",
+    "markdown",
+    "localization",
+    "vietnamese",
+    "translation"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node bin/install.js --help",
+    "pack:check": "npm pack --dry-run"
+  }
+}

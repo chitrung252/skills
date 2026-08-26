@@ -10,25 +10,21 @@ Skill đi kèm cẩm nang giọng văn và glossary EN → VI dành cho nội du
 
 ### Cài cho một project
 
-Clone repository rồi sao chép skill vào thư mục skill của project:
+Sau khi package được phát hành trên npm, chạy tại thư mục gốc của project:
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL> /tmp/codex-skills
-mkdir -p .agents/skills
-cp -R /tmp/codex-skills/locationzation-en-vi .agents/skills/
+npx locationzation-en-vi --project
 ```
 
-Nếu project của bạn đang dùng quy ước `.codex/skills`, hãy thay `.agents/skills` trong lệnh trên bằng `.codex/skills`.
+Skill sẽ được cài vào `.agents/skills/locationzation-en-vi`.
 
 ### Cài cho tài khoản hiện tại
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL> /tmp/codex-skills
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R /tmp/codex-skills/locationzation-en-vi "${CODEX_HOME:-$HOME/.codex}/skills/"
+npx locationzation-en-vi
 ```
 
-Thay `<YOUR_GITHUB_REPOSITORY_URL>` bằng URL repository sau khi bạn public lên GitHub.
+Skill sẽ được cài vào `~/.agents/skills/locationzation-en-vi`. Dùng thêm `--force` nếu muốn thay thế bản đã cài.
 
 ### Sử dụng
 
