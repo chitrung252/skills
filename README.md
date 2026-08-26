@@ -1,16 +1,18 @@
-# Codex Skills
+# Agent Skills
 
-Repository này chứa các skill Codex có thể tái sử dụng.
+[![skills.sh](https://skills.sh/b/chitrung252/skills)](https://skills.sh/chitrung252/skills)
 
-## Markdown EN → VI Localizer
+Bộ sưu tập agent skills mình sử dụng trong các dự án thực tế với Codex và những coding agent tương thích.
 
-`localization-en-vi` chứa skill dịch file Markdown từ tiếng Anh sang tiếng Việt tự nhiên, đồng thời giữ nguyên cấu trúc Markdown, code, URL, placeholder và thuật ngữ kỹ thuật.
+Mỗi skill được thiết kế nhỏ gọn, tập trung vào một công việc cụ thể, dễ tùy chỉnh và có thể kết hợp với các skill khác. Repository sẽ tiếp tục được bổ sung khi những workflow mới đủ ổn định để tái sử dụng.
 
-Skill đi kèm cẩm nang giọng văn và glossary EN → VI dành cho nội dung sản phẩm/CMS, bao gồm các cách dùng tự nhiên như “chuyên mục”, “kho mã nguồn”, “đường dẫn tĩnh”, “hủy thay đổi”, “trợ năng” và “trình đọc màn hình”.
+## Cài đặt
 
-### Cài cho một project
+```bash
+bunx --bun skills@latest add chitrung252/skills
+```
 
-Chạy tại thư mục gốc của project:
+Chọn skill cần cài và coding agent bạn đang sử dụng. Để cài trực tiếp một skill cho Codex:
 
 ```bash
 bunx --bun skills@latest add chitrung252/skills \
@@ -18,26 +20,11 @@ bunx --bun skills@latest add chitrung252/skills \
   --agent codex
 ```
 
-Skill sẽ được cài vào `.agents/skills/markdown-en-vi-localizer`.
+Thêm `--global` nếu muốn dùng skill trong mọi project.
 
-### Cài cho tài khoản hiện tại
+## Skills
 
-```bash
-bunx --bun skills@latest add chitrung252/skills \
-  --skill markdown-en-vi-localizer \
-  --agent codex \
-  --global
-```
-
-CLI `skills` sẽ cài skill vào thư mục skill toàn cục của Codex.
-
-### Sử dụng
-
-```text
-Use $markdown-en-vi-localizer to translate docs/getting-started.en.md into Vietnamese.
-```
-
-Nếu không chỉ định file đích, skill tạo file kế bên với hậu tố `.vi.md`, ví dụ `README.md` → `README.vi.md`.
+- [`markdown-en-vi-localizer`](./skills/localization-en-vi/SKILL.md): Dịch và hiệu đính Markdown từ tiếng Anh sang tiếng Việt tự nhiên, đồng thời bảo toàn cấu trúc, code, liên kết, placeholder và thuật ngữ kỹ thuật.
 
 ## License
 
