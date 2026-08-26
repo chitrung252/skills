@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown EN→VI Localizer"
+  short_description: "Translate Markdown from English to Vietnamese"
+  default_prompt: "Use $markdown-en-vi-localizer to translate this English Markdown file into natural Vietnamese while preserving its structure."
