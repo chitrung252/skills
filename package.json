@@ -1,39 +1,21 @@
 {
-  "name": "locationzation-en-vi",
+  "name": "chitrung252-skills",
   "version": "1.0.0",
-  "description": "Install a Codex skill for natural English-to-Vietnamese Markdown localization.",
-  "license": "MIT",
+  "private": true,
+  "description": "Chitrung's reusable agent skills for software projects.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chitrung252/skills.git"
+    "url": "https://github.com/chitrung252/skills"
   },
-  "homepage": "https://github.com/chitrung252/skills#readme",
-  "bugs": {
-    "url": "https://github.com/chitrung252/skills/issues"
-  },
-  "type": "module",
-  "bin": {
-    "locationzation-en-vi": "bin/install.js"
-  },
-  "files": [
-    "bin/",
-    "locationzation-en-vi/",
-    "README.md",
-    "LICENSE"
-  ],
-  "keywords": [
-    "codex",
-    "agent-skill",
-    "markdown",
-    "localization",
-    "vietnamese",
-    "translation"
-  ],
-  "engines": {
-    "node": ">=18"
-  },
+  "license": "MIT",
   "scripts": {
-    "test": "node bin/install.js --help",
-    "pack:check": "npm pack --dry-run"
-  }
+    "changeset": "changeset",
+    "version": "changeset version",
+    "check": "npm run changeset -- status"
+  },
+  "devDependencies": {
+    "@changesets/changelog-github": "^0.7.0",
+    "@changesets/cli": "^2.30.0"
+  },
+  "packageManager": "npm@11.17.0"
 }
